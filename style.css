@@ -1,1 +1,70 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fefbe9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  background-color: #d9f99d;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #0f766e;
+  font-size: 2.5rem;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #0f766e;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #0f766e;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 10px;
+}
+
+.skills-list li {
+  background: #e0f2fe;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #d9f99d;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: #0f766e;
+}
 
